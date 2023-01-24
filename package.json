@@ -1,0 +1,31 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "compression": "^1.7.4",
+    "express": "^4.16.2",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^6.0.1",
+    "joi": "^13.1.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.0.2",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  }
+}
