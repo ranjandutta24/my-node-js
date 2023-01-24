@@ -9,7 +9,7 @@ router.get("/", async (req, res, next) => {
   //   throw new Error("Could not get genres.");
   const genres = await Genre.find().sort("name");
   res.send(genres);
-  next(ex);
+  //   next(ex);
 });
 
 router.post("/", auth, async (req, res) => {
